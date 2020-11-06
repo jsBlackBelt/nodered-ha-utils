@@ -1,0 +1,19 @@
+{
+  "name": "nodered-ha-utils",
+  "version": "1.0.0",
+  "description": "utils for NodeRed & HA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsBlackBelt/nodered-ha-utils.git"
+  },
+  "author": "Sefi Ninio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsBlackBelt/nodered-ha-utils/issues"
+  },
+  "homepage": "https://github.com/jsBlackBelt/nodered-ha-utils#readme"
+}
