@@ -1,7 +1,11 @@
 import { getHaEntityStates } from './utils/getHaEntityStates';
-import { getOnEntitiesInRoom } from './utils/getOnEntitiesInRoom';
+import {
+  getOnEntitiesInRoom,
+  getOnEntitiesInRoomString,
+} from './utils/getOnEntitiesInRoom';
 
 export {
   getHaEntityStates,
   getOnEntitiesInRoom,
+  getOnEntitiesInRoomString,
 };

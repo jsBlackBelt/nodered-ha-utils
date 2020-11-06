@@ -16,4 +16,11 @@ export function getOnEntitiesInRoom (roomState, keys) {
       }
   });
   return entities;
-};
+}
+
+export function getOnEntitiesInRoomString (roomState, keys) {
+  const entities = getOnEntitiesInRoom(roomState, keys);
+  return entities.reduce((acc, entity) => {
+    return acc += `${entity.attributes.friendly_name} is ${entity.state}\n`;
+  }, '');
+}
