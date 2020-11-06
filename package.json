@@ -1,5 +1,5 @@
 {
-  "name": "@sefininio/nodered-ha-utils",
+  "name": "nodered-ha-utils",
   "version": "1.1.0",
   "description": "utils for NodeRed & HA",
   "main": "index.js",
