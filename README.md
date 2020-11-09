@@ -31,13 +31,13 @@ To provide easy means for sharing and reusing code snippets and functionalities 
 In any `Function` node, simply import the function you want to use, or the entire package:
 ```javascript
 // This will import the entire package
-const myUtils = require('myUtils');
+const myUtils = global.get('myUtils');
 // Use it like this:
 const onEntities = myUtils.getOnEntitiesInRoom(roomStateObj, keys);
 ```
 ```javascript
 // Or, you can import only the util you need
-const { getOnEntitiesInRoom } = require('myUtils');
+const { getOnEntitiesInRoom } = global.get('myUtils');
 // Use it like this:
 const onEntities = getOnEntitiesInRoom(roomStateObj, keys);
 ```
