@@ -12,7 +12,7 @@ To provide easy means for sharing and reusing code snippets and functionalities 
 
   If you are running Node Red in Docker container, first login into it before installing, using:
   ```shell
-  docker exec -it <NodeRedContinerName> /bin/bash
+  docker exec -it <NodeRedContainerName> /bin/bash
   ```
   Use `docker ps` to find the container name.
 
