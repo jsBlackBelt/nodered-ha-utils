@@ -18,7 +18,7 @@ To provide easy means for sharing and reusing code snippets and functionalities 
 
 * Edit your `settings.json` file in Node Red directory
 * Find the key `functionGlobalContext` and add this package:
-  ```json
+  ```
       functionGlobalContext: {
           // ...
           myUtils:require("nodered-ha-utils")
