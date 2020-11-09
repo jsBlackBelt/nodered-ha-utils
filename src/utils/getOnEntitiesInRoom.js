@@ -2,8 +2,10 @@ import { STATES } from '../constants';
 
 /**
  *
- * @param {*} roomState roomState object
- * @param {*} keys the keys in roomState to check on state for
+ * @param {*} roomState roomState object - an object that contains
+ *    key/name pairs, where the key is the entity name and the value
+ *    is the entity object
+ * @param {*} keys the keys in roomState to check 'on' state for
  *
  * @returns an array on entities
  */
