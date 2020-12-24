@@ -46,3 +46,4 @@ const onEntities = getOnEntitiesInRoom(roomStateObj, keys);
 So, you want to contribute your own utils? So glad to hear!
 * Please see the [contribution guide](https://github.com/jsBlackBelt/nodered-ha-utils/blob/main/CONTRIBUTING.md) for guidelines.
 * Please fork the repository, add your own code and submit a PR for review.
+* powered by `np` for npm publishing
