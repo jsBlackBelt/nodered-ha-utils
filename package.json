@@ -1,6 +1,6 @@
 {
   "name": "nodered-ha-utils",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "utils for NodeRed & HA",
   "main": "index.js",
   "browser": "dist/index.js",
